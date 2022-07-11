@@ -12,4 +12,4 @@ total = bill * tip_perecent_plus_one
 
 per_person = total / people
 
-print(("${:.2f}".format(per_person)))
+print("Each person should pay " + ("${:.2f}".format(per_person)))
